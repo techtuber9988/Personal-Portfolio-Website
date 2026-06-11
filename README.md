@@ -59,13 +59,21 @@ portfolio-website/
 
 ---
 
-## ⬜ Day 2 - Header & Navigation
+## ✅ Day 2 - Header & Navigation
 
-### Tasks
+### Completed Tasks
 
 * Create navigation menu
 * Add internal links
 * Create multiple sections
+
+## 📌 What I Built
+
+* Created website header
+* Added navigation menu
+* Implemented internal navigation links
+* Connected sections using anchor tags
+
 
 ---
 
