@@ -43,7 +43,7 @@ portfolio-website/
 
 # 📅 Progress Tracker
 
-## ✅ Day 1 - Setup & Basic Structure
+## ✅ Day 1 Task Completed - Setup & Basic Structure
 
 * Installed VS Code
 * Created project folder
@@ -59,7 +59,7 @@ portfolio-website/
 
 ---
 
-## ✅ Day 2 - Header & Navigation
+## ✅ Day 2 Task Completed - Header & Navigation
 
 ### Completed Tasks
 
