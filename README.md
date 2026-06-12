@@ -58,6 +58,24 @@ portfolio-website/
 * Basic Page Structure
 
 ---
+#### 💻 Code (Day 1)
+
+``` html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+</body>
+</html>
+``` 
+
+---
 
 ## ✅ Day 2 Task Completed - Header & Navigation
 
@@ -67,25 +85,65 @@ portfolio-website/
 * Add internal links
 * Create multiple sections
 
-## 📌 What I Built
+### 📌 What I Built
 
 * Created website header
 * Added navigation menu
 * Implemented internal navigation links
 * Connected sections using anchor tags
+---
+#### 💻 Code (Day 2)
 
+```html
+<header>
+    <h1>Ayush Portfolio</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+```
 
 ---
 
-## ⬜ Day 3 - About Section
+## ✅ Day 3 Completed Tasks - About Section
 
-### Tasks
+### Completed Tasks
 
 * Add personal introduction
 * Use headings & paragraphs
 * Improve content structure
 
+### ✅ Topics
+
+* Paragraphs
+* Headings
+* Images
+* Links
+
 ---
+#### 💻 Code (Day 3)
+
+```html
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <img src="images/profile.jpg" alt="Profile Picture" width="200">
+
+    <p>
+        Hello! My name is Ayush. I am learning Web Development
+        and building awesome projects using HTML, CSS, and JavaScript.
+    </p>
+
+    <a href="https://github.com/" target="_blank">
+        Visit My GitHub
+    </a>
+
+</section>
+``` 
 
 ## ⬜ Day 4 - Skills Section
 
@@ -156,4 +214,4 @@ This project is part of my Web Development learning journey where I build projec
 
 # 👨‍💻 Author
 
-Ayush
+Ayush Tripathi
