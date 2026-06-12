@@ -20,7 +20,7 @@ The goal of this project is to learn:
 * Portfolio website basics
 
 ---
-
+ 
 ## 🛠️ Tech Stack
 
 * HTML5
