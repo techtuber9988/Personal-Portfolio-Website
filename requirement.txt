@@ -1,0 +1,59 @@
+Quality Standards Checklist
+----------------------------
+- All items must be included for full marks
+
+Project Overview
+----------------
+- Goal: Build a personal portfolio website showcasing projects, skills, and contact information.
+- Objective: Provide a clean, responsive, and easily maintainable static site using HTML, CSS, and optional JavaScript.
+
+Setup Instructions
+-------------------
+1. Clone the repository:
+   git clone <repository-url>
+2. Open the project folder:
+   cd Personal-Portfolio-Website
+3. Install dependencies (if any, e.g., npm for tooling):
+   npm install
+4. Run a local development server (optional):
+   npm run dev   # or open index.html directly in a browser
+5. Deploy: copy the `dist` folder to any static hosting service (GitHub Pages, Netlify, etc.).
+
+Code Structure
+----------------
+- `index.html` – Home page, introduces the developer and highlights key projects.
+- `about.html` – Detailed biography and skill summary.
+- `projects.html` – Grid/list of projects with screenshots and links.
+- `contact.html` – Contact form (optional) and social links.
+- `assets/`
+  - `css/` – Stylesheets (e.g., `styles.css`, `responsive.css`).
+  - `js/` – Optional JavaScript for interactivity.
+  - `images/` – Profile picture, project screenshots, icons.
+- `README.md` – Project documentation and usage guide.
+
+HTML Concepts Learned
+----------------------
+- Semantic elements (`<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`) for improved accessibility and SEO.
+- Responsive design using Flexbox and CSS Grid.
+- Media queries for adapting layout to mobile, tablet, and desktop.
+- Embedding multimedia (`<img>`, `<video>`, `<audio>`).
+- Form handling basics (`<form>`, `<input>`, `<label>`).
+- Accessibility considerations (ARIA attributes, alt text).
+
+Visual Documentation
+----------------------
+- Include screenshots of each page (Home, About, Projects, Contact) placed in `assets/images/screenshots/`.
+- Reference images in this document as placeholders, e.g., `![Home Page](assets/images/screenshots/home.png)`.
+
+Technical Details
+------------------
+- Architecture: Static site with optional build step (e.g., using Vite or Webpack) to bundle assets.
+- Data structures: Simple JSON files may be used to store project metadata and dynamically generate project cards.
+- No complex algorithms; focus is on clean markup, CSS layout, and minimal JavaScript for UI enhancements.
+
+Testing Evidence
+-----------------
+- Manual testing across browsers (Chrome, Firefox, Edge) and devices (desktop, mobile).
+- Validation using W3C HTML validator – all pages pass with zero errors.
+- Responsive tests: layout adjusts at 320px, 768px, and 1024px breakpoints.
+- Accessibility checks with axe-core – no critical violations.

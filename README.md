@@ -35,6 +35,7 @@ The goal of this project is to learn:
 portfolio-website/
 │
 ├── index.html
+├── requirement.txt
 ├── README.md
 └── images/
 ```
@@ -58,24 +59,6 @@ portfolio-website/
 * Basic Page Structure
 
 ---
-#### 💻 Code (Day 1)
-
-``` html 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-
-</body>
-</html>
-``` 
-
----
 
 ## ✅ Day 2 Task Completed - Header & Navigation
 
@@ -91,21 +74,6 @@ portfolio-website/
 * Added navigation menu
 * Implemented internal navigation links
 * Connected sections using anchor tags
----
-#### 💻 Code (Day 2)
-
-```html
-<header>
-    <h1>Ayush Portfolio</h1>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-```
-
 ---
 
 ## ✅ Day 3 Completed Tasks - About Section
@@ -124,66 +92,75 @@ portfolio-website/
 * Links
 
 ---
-#### 💻 Code (Day 3)
 
-```html
-<section id="about">
+## ✅ Day 4 Completed Tasks - Skills Section
 
-    <h2>About Me</h2>
-
-    <img src="images/profile.jpg" alt="Profile Picture" width="200">
-
-    <p>
-        Hello! My name is Ayush. I am learning Web Development
-        and building awesome projects using HTML, CSS, and JavaScript.
-    </p>
-
-    <a href="https://github.com/" target="_blank">
-        Visit My GitHub
-    </a>
-
-</section>
-``` 
-
-## ⬜ Day 4 - Skills Section
-
-### Tasks
+### Completed Tasks
 
 * Add skills list
 * Use ordered/unordered lists
 * Organize content properly
 
+### ✅ Topics
+
+* Ordered List
+* Unordered List
+* List Items
+* Skills Section
 ---
 
-## ⬜ Day 5 - Contact Form
+## ✅ Day 5 Completed Tasks - Contact Form
 
-### Tasks
+### Completed Tasks
 
 * Create form
 * Add input fields
 * Add validation attributes
 
+### ✅ Topics
+
+* Forms
+* Input Fields
+* Validation Attributes
+* Contact Form
+
 ---
 
-## ⬜ Day 6 - Images & Links
+## ✅    Day 6 Completed Tasks - Images & Links
 
-### Tasks
+### Completed Tasks
 
 * Add profile image
 * Add external links
 * Add alt text
 
+### Topics
+
+* Images
+* Links
+* Alt Text
+* External Links
+* Profile Image
+* Add footer
+* Add social links
+* Improve alt text
 ---
 
-## ⬜ Day 7 - Testing & Final Touches
+## ✅  Day 7 Completed Tasks - Testing & Final Touches
 
-### Tasks
+### Completed Tasks
 
 * Test website
 * Fix errors
 * Improve structure
 * Final review
 
+### ✅ Tasks
+* Test navigation links
+* Check form validation
+* Validate HTML structure
+* Organize folders properly
+* Push to GitHub
 ---
 
 # 🎯 Features
