@@ -14,93 +14,93 @@
     <!-- Website Title -->
     <title>Ayush Portfolio</title>
 
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for floating icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
+    <!-- Floating Background Textures -->
+    <div class="floating-bg">
+        <div class="floating-icon icon-1"><i class="fa-brands fa-html5"></i></div>
+        <div class="floating-icon icon-2"><i class="fa-brands fa-css3-alt"></i></div>
+        <div class="floating-icon icon-3"><i class="fa-brands fa-js"></i></div>
+        <div class="floating-icon icon-4"><i class="fa-brands fa-git-alt"></i></div>
+        <div class="floating-icon icon-5"><i class="fa-brands fa-react"></i></div>
+        <div class="floating-icon icon-6"><i class="fa-solid fa-code"></i></div>
+        <div class="floating-icon icon-7"><i class="fa-brands fa-node-js"></i></div>
+        <div class="floating-icon icon-8"><i class="fa-solid fa-database"></i></div>
+    </div>
 
-    <!-- DAY 2: HEADER & NAVIGATION -->
+    <!-- NAVIGATION -->
 
     <header>
-
-        <!-- Portfolio Heading -->
-        <h1>Ayush Portfolio</h1>
-
-        <!-- Short Introduction -->
-        <p>
-            Beginner Full Stack Web Developer
-        </p>
-
         <!-- Navigation Menu -->
         <nav>
-
-            <a href="#home">Home</a> |
-
-            <a href="#about">About</a> |
-
-            <a href="#skills">Skills</a> |
-
-            <a href="#projects">Projects</a> |
-
-            <a href="#contact">Contact</a>
-
+            <a href="#home"><span>Home</span></a>
+            <a href="#about"><span>About</span></a>
+            <a href="#skills"><span>Skills</span></a>
+            <a href="#projects"><span>Projects</span></a>
+            <a href="#contact"><span>Contact</span></a>
         </nav>
-
-        <hr>
-
     </header>
 
     <!-- MAIN CONTENT STARTS -->  
 
     <main>
 
-        <!-- DAY 3: HERO SECTION -->
-
+        <!-- HERO SECTION -->
         <section id="home">
-
-            <h2>Hello, I'm Ayush 👋</h2>
-
-            <!-- Profile Image -->
-            <img src="images/profile.png"
-                 alt="Ayush Profile Picture"
-                 width="200">
-
-            <!-- Introduction Paragraph -->
-            <p>
-                I am learning Full Stack Web Development
-                and building modern web projects using
-                HTML, CSS, and JavaScript.
-            </p>
-
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Ayush Tripathi</h2>
+                    <p class="subtitle">Beginner Full Stack Web Developer</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.png" alt="Ayush Profile Picture">
+                </div>
+            </div>
         </section>
 
         <hr>
 
-        <!-- DAY 3: ABOUT SECTION -->
+        <!-- ABOUT SECTION -->
 
         <section id="about">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
 
-            <h2>About Me</h2>
+            <div class="glass-card about-card">
+                <p>
+                    I am passionate about technology and web development.
+                    Currently, I am improving my frontend and backend
+                    development skills by creating projects and practicing daily.
+                </p>
 
-            <p>
-                I am passionate about technology and web development.
-                Currently, I am improving my frontend and backend
-                development skills by creating projects and practicing daily.
-            </p>
-
-            <p>
-                My goal is to become a professional software developer
-                and build impactful digital products.
-            </p>
-
+                <p>
+                    My goal is to become a professional software developer
+                    and build impactful digital products.
+                </p>
+            </div>
         </section>
 
         <hr>
 
-        <!-- DAY 4: SKILLS SECTION -->
+        <!-- SKILLS SECTION -->
 
         <section id="skills">
-
-            <h2>My Skills</h2>
+            <div class="section-title">
+                <h2>My Skills</h2>
+            </div>
 
             <!-- Skills List -->
             <ul>
@@ -121,14 +121,15 @@
 
         <hr>
 
-        <!-- DAY 5: PROJECTS SECTION -->
+        <!-- PROJECTS SECTION -->
 
         <section id="projects">
-
-            <h2>Projects</h2>
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
 
             <!-- Project 1 -->
-            <article>
+            <article class="glass-card">
 
                 <h3>Movie Search App</h3>
 
@@ -139,68 +140,34 @@
 
             </article>
 
-            <br>
-
         </section>
 
         <hr>
 
-        <!-- DAY 6: CONTACT FORM -->
+        <!-- CONTACT FORM -->
 
         <section id="contact">
-
-            <h2>Contact Me</h2>
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
 
             <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
 
-                <!-- Full Name Input -->
-                <label for="name">
-                    Full Name
-                </label>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
 
-                <br>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+                </div>
 
-                <input type="text"
-                       id="name"
-                       placeholder="Enter your name"
-                       required>
-
-                <br><br>
-
-                <!-- Email Input -->
-                <label for="email">
-                    Email Address
-                </label>
-
-                <br>
-
-                <input type="email"
-                       id="email"
-                       placeholder="Enter your email"
-                       required>
-
-                <br><br>
-
-                <!-- Message Textarea -->
-                <label for="message">
-                    Message
-                </label>
-
-                <br>
-
-                <textarea id="message"
-                          rows="5"
-                          cols="30"
-                          placeholder="Write your message">
-                </textarea>
-
-                <br><br>
-
-                <!-- Submit Button -->
-                <button type="submit">
-                    Send Message
-                </button>
-
+                <button type="submit">Send Message</button>
             </form>
 
         </section>
