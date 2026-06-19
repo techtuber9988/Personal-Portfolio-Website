@@ -25,17 +25,29 @@ The main objective of this project was to master **CSS3** styling by transformin
 # ✨ Features
 
 ✅ Modern Glassmorphism Design
+
 ✅ Dark Theme with Gradient Accents
+
 ✅ Responsive Navigation Bar
+
 ✅ Hero Section with Image & Text Layout
+
 ✅ Glass-styled About Section
+
 ✅ Interactive Skills with Hover Effects
+
 ✅ Project Cards with Hover Animations
+
 ✅ Styled Contact Form
+
 ✅ Floating Tech Icons Background
+
 ✅ Smooth Animations & Transitions
+
 ✅ Mobile-First Responsive Design
+
 ✅ Clean & Well-Organized Code
+
 
 ---
 
