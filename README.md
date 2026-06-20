@@ -104,6 +104,14 @@ portfolio-website/
 - Day 7 — Optimization & Testing
 
 ---
+<img width="1302" height="637" alt="Screenshot 2026-06-19 143600" src="https://github.com/user-attachments/assets/b9929202-574f-4265-b1d2-9ae33255921b" />
+
+<img width="1302" height="640" alt="Screenshot 2026-06-19 143611" src="https://github.com/user-attachments/assets/10e5fb9e-75ea-446d-9402-3782fe0b8846" />
+
+<img width="1298" height="462" alt="Screenshot 2026-06-19 143623" src="https://github.com/user-attachments/assets/3ab8f2e5-371a-4c6c-ab2b-c33af075a089" />
+
+<img width="1295" height="571" alt="Screenshot 2026-06-19 143643" src="https://github.com/user-attachments/assets/207f3a15-fb71-4de7-bb89-98703139ebd9" />
+
 
 # 🎨 Design System
 
