@@ -104,6 +104,19 @@ portfolio-website/
 - Day 7 — Optimization & Testing
 
 ---
+
+## Week 3: JavaScript - Making Websites Interactive
+
+- Day 1: Setup JavaScript - Create script.js, link to HTML, test with console.log
+- Day 2: DOM Manipulation - Select elements, change content and styles
+- Day 3: Event Handling - Add click, hover, submit event listeners
+- Day 4: Form Validation - Validate contact form with real-time feedback
+- Day 5: Interactive Features - Create dark mode, image gallery, etc.
+- Day 6: Local Storage - Save user preferences locally
+- Day 7: Testing & Debugging - Test all features, fix errors
+
+---
+
 <img width="1302" height="637" alt="Screenshot 2026-06-19 143600" src="https://github.com/user-attachments/assets/b9929202-574f-4265-b1d2-9ae33255921b" />
 
 <img width="1302" height="640" alt="Screenshot 2026-06-19 143611" src="https://github.com/user-attachments/assets/10e5fb9e-75ea-446d-9402-3782fe0b8846" />
