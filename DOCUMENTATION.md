@@ -1,9 +1,9 @@
-# WEEK 2 PROJECT DOCUMENTATION
+# WEEK 3 PROJECT DOCUMENTATION
 
-**Project Title:** *Styled Portfolio Website*
-**Week:** *2*
-**Technology Stack:** *HTML5, CSS3, VS Code, Live Server*
-**Submission Date:** *June 23, 2026*
+**Project Title:** *Interactive Portfolio Website*
+**Week:** *3*
+**Technology Stack:** *HTML5, CSS3, JavaScript (ES6), VS Code, Live Server*
+**Submission Date:** *June 24, 2026*
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -21,181 +21,255 @@
 
 ✔ Testing Evidence
 
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## 1. PROJECT OVERVIEW
 
 ### Project Description
 
-The Styled Portfolio Website is a personal portfolio website created to showcase personal information, skills, and contact details in a professional and visually appealing format.
+The Interactive Portfolio Website is an upgraded version of the portfolio project developed during Week 1 and Week 2.
 
-Week 1 focused on building the structure using HTML.
-Week 2 focused on styling the website using CSS.
+Week 1 focused on building the website structure using HTML.
+Week 2 focused on styling and responsiveness using CSS.
+Week 3 focuses on adding interactivity and dynamic behavior using JavaScript.
+
+The goal is to transform a static website into an interactive and user-friendly web application.
 
 ### Project Objectives
 
-* Learn CSS fundamentals and styling rules
-* Understand CSS selectors and specificity
-* Apply colors, fonts, and spacing
-* Build responsive layouts using Flexbox/Grid
-* Add hover effects and transitions
-* Improve UI/UX design
+* Learn JavaScript fundamentals
+* Understand DOM manipulation
+* Implement event listeners
+* Create reusable functions
+* Add interactive website features
+* Validate forms using JavaScript
+* Use local storage for user preferences
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 2. WEEK 1 IMPLEMENTATION SUMMARY
+## 2. WEEK 1 & WEEK 2 IMPLEMENTATION SUMMARY
 
-During Week 1, the portfolio website structure was built using HTML.
+### Week 1 (HTML)
 
-### HTML Concepts Used
+Implemented:
 
-* HTML5 document structure
+* Website structure
 * Semantic HTML tags
 * Forms and inputs
 * Navigation links
 * Images and media
-* Internal linking
 
-### Sections Created
+### Week 2 (CSS)
 
-* Header
-* Navigation Bar
-* About Section
-* Skills Section
-* Contact Section
-* Footer
+Implemented:
 
-### Week 1 Technical Requirements
-
-✔ Create index.html
-
-✔ Add 3 sections
-
-✔ Semantic HTML tags
-
-✔ Working contact form
-
-✔ Images with alt text
-
-✔ Internal navigation links
-
+* Styling and layout
+* Flexbox and Grid
+* Responsive design
+* Hover effects
+* Animations
+* Glassmorphism design
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 3. WEEK 2 CSS IMPLEMENTATION
+## 3. WEEK 3 JAVASCRIPT IMPLEMENTATION
 
-Week 2 focused on adding styling and responsiveness.
+Week 3 focused on making the portfolio website interactive.
 
-### CSS Concepts Used
+### JavaScript Concepts Used
 
-**1. CSS Selectors**
-* Element Selector
-* Class Selector
-* ID Selector
-* Pseudo-Class Selector
+**1. Variables and Data Types**
 
-**2. Box Model**
-* Content
-* Padding
-* Border
-* Margin
+* let
+* const
+* Strings
+* Numbers
+* Boolean
 
-**3. Typography Styling**
-* Custom fonts (Inter from Google Fonts)
-* Font sizes (using clamp for responsive scaling)
-* Font weights (300-700)
-* Line spacing (1.7)
+Example:
 
-**4. Colors and Backgrounds**
-* Primary Color: #8b5cf6 (Purple accent)
-* Secondary Color: #0a0a0a (Dark background)
-* Background Color: #000000 (Pure black)
-* Glass Effect: rgba(255,255,255,0.03)
-* Text Primary: #fafafa
-* Text Secondary: #a1a1aa
+```javascript
+const theme = "dark";
+let isMenuOpen = false;
+```
 
-**5. Flexbox Layout**
-Used for:
-* Navigation Bar (centered, gap-based)
-* Hero Section (text + image side by side)
-* Skills Grid (auto-fit grid)
+---
 
-**6. CSS Grid Layout**
-Used for:
-* Skills Section (repeat auto-fit)
-* Projects Section (card grid)
+**2. Functions**
+Reusable blocks of code created for interaction handling.
 
-**7. Hover Effects**
-Hover effects added to:
-* Navigation links
-* Skills cards
-* Project cards
-* Form buttons
-* Profile image
+Example:
 
-**8. Responsive Design**
-Media queries used for:
-* 768px breakpoint (tablet)
-* 480px breakpoint (mobile)
+```javascript
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+}
+```
+
+---
+
+**3. DOM Manipulation**
+JavaScript used to access and modify webpage elements dynamically.
+
+Methods used:
+
+* getElementById()
+* querySelector()
+* querySelectorAll()
+
+Example:
+
+```javascript
+document.querySelector(".hero-title").innerText = "Welcome to My Portfolio";
+```
+
+---
+
+**4. Event Listeners**
+Added listeners for user interaction.
+
+Events used:
+
+* click
+* hover
+* submit
+* input
+
+Example:
+
+```javascript
+button.addEventListener("click", toggleTheme);
+```
+
+---
+
+**5. Form Validation**
+Implemented validation for contact form.
+
+Checks include:
+
+* Empty fields
+* Invalid email format
+* Minimum input length
+
+Example:
+
+```javascript
+if(name.value.trim() === "") {
+    error.textContent = "Name is required";
+}
+```
+
+---
+
+**6. Local Storage**
+Used browser storage to save preferences.
+
+Example:
+
+```javascript
+localStorage.setItem("theme", "dark");
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 4. DESIGN DECISIONS
+## 4. INTERACTIVE FEATURES IMPLEMENTED
 
-Several design choices were made to improve user experience.
+The following interactive features were added:
+
+### 1. Dark/Light Mode Toggle
+
+Allows users to switch between themes.
+
+Features:
+
+* One-click toggle
+* Smooth transition
+* Saved using local storage
+
+---
+
+### 2. Contact Form Validation
+
+Form validates inputs before submission.
+
+Validation includes:
+
+* Required fields
+* Email validation
+* Error messages
+
+---
+
+### 3. Dynamic Content Updates
+
+JavaScript updates webpage content dynamically.
+
+Examples:
+
+* Text changes
+* Section visibility
+* UI updates
+
+---
+
+### 4. Show/Hide Sections
+
+Users can show or collapse sections interactively.
+
+---
+
+### 5. Smooth Navigation
+
+Navigation enhanced with smooth scrolling.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 5. DESIGN DECISIONS
+
+Several JavaScript design decisions were made to improve maintainability and performance.
 
 ### Design Goals
 
-* Clean UI - Minimalist dark theme
-* Modern Appearance - Glassmorphism effects
-* Easy Navigation - Sticky header with blur
-* Mobile-Friendly Layout - Stack on small screens
-* Good Readability - Proper contrast and spacing
+* Keep code modular
+* Use reusable functions
+* Improve user experience
+* Maintain responsive behavior
+* Keep interactions smooth
 
-### Color Scheme Decision
+### Logic Design
 
-Dark theme with purple/pink/orange gradient accents was chosen for a modern, professional portfolio appearance.
+Functions were separated based on purpose:
 
-### Layout Decisions
+* Theme management
+* Form validation
+* Event handling
+* UI updates
 
-Flexbox was selected because it:
-* Simplifies alignment
-* Improves responsiveness
-* Makes layouts easier to manage
-
-CSS Grid was used for card layouts to create uniform, responsive grids.
-
-### Glassmorphism Design
-
-Glass effects implemented using:
-* backdrop-filter: blur(20px)
-* Semi-transparent backgrounds
-* Subtle borders
-* Soft shadows with color tints
+This improved code readability and maintainability.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 5. RESPONSIVENESS APPROACH
+## 6. RESPONSIVENESS APPROACH
 
-The website was designed using mobile-friendly principles.
+JavaScript functionality was designed to work on all screen sizes.
 
-### Techniques Used
-
-* Flexible layouts (flex-wrap, auto-fit)
-* Relative sizing (rem, %, clamp)
-* Media queries (@media)
-* Responsive navigation (stacked on mobile)
-
-### Screen Compatibility
+### Compatibility
 
 * Desktop (1024px+)
 * Tablet (768px)
 * Mobile (480px and below)
 
+### Responsive Features
+
+* Mobile-friendly navigation
+* Theme toggle support
+* Form validation across devices
+* Smooth interactions on smaller screens
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 6. SETUP AND INSTALLATION INSTRUCTIONS
+## 7. SETUP AND INSTALLATION INSTRUCTIONS
 
 ### Requirements
 
@@ -205,122 +279,135 @@ The website was designed using mobile-friendly principles.
 
 ### Installation Steps
 
-**Step 1:** Download or clone the project files
-**Step 2:** Open project folder in VS Code
+**Step 1:** Download or clone project files
+
+**Step 2:** Open project in VS Code
+
 **Step 3:** Ensure these files exist
+
 * index.html
 * style.css
+* script.js
 * README.md
 
-**Step 4:** Open index.html using Live Server
-**Step 5:** View project in browser
+**Step 4:** Launch with Live Server
+
+**Step 5:** Open browser and test interactions
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 7. CODE STRUCTURE
+## 8. CODE STRUCTURE
 
 ### Project Folder Structure
 
-```
+```bash
 portfolio-website/
 |
-├── index.html        # Main HTML file
-├── style.css         # CSS stylesheet
-├── README.md         # Documentation
-├── requirement.txt   # Requirements
-├── images/           # Profile image
-└── screenshot/       # Project screenshots
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── requirement.txt
+├── images/
+└── screenshot/
 ```
 
 ### File Explanation
 
 **index.html**
-Contains website structure and content with semantic HTML tags.
+Contains webpage structure.
 
 **style.css**
-Contains all styling rules including:
-* CSS Reset
-* Variables (colors, transitions)
-* Layouts (Flexbox, Grid)
-* Responsive design (media queries)
-* Animations and hover effects
+Contains styling and responsive layouts.
+
+**script.js**
+Contains all JavaScript logic including:
+
+* DOM manipulation
+* Event listeners
+* Validation logic
+* Local storage
 
 **README.md**
-Contains project overview, documentation, and implementation details.
-
-**images/**
-Contains profile picture (profile.png)
-
-**screenshot/**
-Contains project screenshots for visual documentation.
+Contains complete documentation.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 8. TECHNICAL REQUIREMENTS COMPLETION
+## 9. TECHNICAL REQUIREMENTS COMPLETION
 
-✔ External style.css file
+✔ Create script.js file
 
-✔ 3+ CSS selectors (element, class, pseudo-class)
+✔ Implement form validation
 
-✔ Hover effects on buttons, links, and cards
+✔ Add 3+ interactive features
 
-✔ Responsive design with media queries
+✔ Use DOM manipulation
 
-✔ CSS Grid/Flexbox layouts
+✔ Use event listeners
 
-✔ Custom fonts (Google Fonts - Inter) and color scheme
-
+✔ Create reusable functions
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 9. TECHNICAL DETAILS
+## 10. TECHNICAL DETAILS
 
 ### Architecture
 
 * HTML → Structure
 * CSS → Styling
+* JavaScript → Logic & Interactivity
 
 ### Logic Used
 
-This project focuses on frontend styling and layout.
+Main logic includes:
 
-Logic includes:
-* Responsive layout switching using media queries
-* Hover interactions using CSS pseudo-classes
-* Navigation flow using internal anchor links
-* Animation sequences using CSS keyframes
+* DOM selection
+* Event-driven programming
+* Input validation
+* Dynamic UI updates
+* Local storage management
 
 ### Data Structures
 
-No complex data structures were required since this is a static frontend project.
+Basic JavaScript data structures used:
+
+* Strings
+* Arrays
+* Objects
+* Boolean values
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 10. VISUAL DOCUMENTATION
+## 11. VISUAL DOCUMENTATION
 
 ### Screenshots
 
-Screenshots of the completed project are available in the `screenshot/` folder.
+Screenshots of interactive features are stored in the `screenshot/` folder.
 
+Examples:
+
+* Homepage
+* Dark Mode
+* Form Validation Errors
+* Interactive Components
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 11. TESTING EVIDENCE
+## 12. TESTING EVIDENCE
 
-The project was tested for functionality and responsiveness.
+The project was tested for functionality and interactivity.
 
-✔ Website loads successfully
+✔ JavaScript loads successfully
 
-✔ Navigation links work properly
+✔ Dark mode works properly
 
-✔ Hover effects function correctly
+✔ Form validation works
 
-✔ Mobile layout adjusts properly
+✔ Event listeners respond correctly
 
-✔ Contact form accepts input
+✔ Dynamic content updates properly
 
-✔ Smooth animations and transitions
-
+✔ Local storage saves preferences
 
 ### Browser Testing
 
@@ -330,47 +417,40 @@ The project was tested for functionality and responsiveness.
 
 ✔ Mozilla Firefox
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 13. CHALLENGES FACED
+
+* Understanding DOM selection methods
+* Managing multiple event listeners
+* Debugging JavaScript errors
+* Handling form validation edge cases
+* Saving preferences using local storage
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 12. CHALLENGES FACED
-
-* Managing layout alignment between text and image
-* Making sections responsive on all screen sizes
-* Choosing suitable color palette for dark theme
-* Improving spacing consistency
-* Implementing smooth glassmorphism effects
-* Balancing visibility of floating background icons
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## 13. LEARNINGS FROM WEEK 2
+## 14. LEARNINGS FROM WEEK 3
 
 Through this project, I learned:
 
-* CSS fundamentals and styling rules
-* Selectors and specificity (element, class, ID, pseudo-class)
-* Box model (content, padding, border, margin)
-* Flexbox layout (alignment, direction, wrapping)
-* CSS Grid layout (auto-fit, minmax)
-* Responsive design with media queries
-* Hover effects and transitions
-* CSS animations (keyframes, duration, timing)
-* Glassmorphism design techniques
-* Dark theme color schemes
-* Custom fonts with Google Fonts
-* CSS variables for maintainability
+* JavaScript fundamentals
+* Variables and data types
+* Functions and reusable logic
+* DOM manipulation
+* Event listeners
+* Form validation
+* Local storage
+* Dynamic UI updates
+* Debugging JavaScript issues
 
-This week significantly improved my frontend styling skills and understanding of UI design.
+This week significantly improved my frontend development and problem-solving skills.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## 14. CONCLUSION
+## 15. CONCLUSION
 
-The Week 2 project successfully transformed a basic HTML portfolio into a modern, responsive, and visually appealing website using CSS.
+The Week 3 project successfully transformed a static portfolio website into an interactive and dynamic web application using JavaScript.
 
-This project strengthened my understanding of web styling, layout systems, and responsive design principles.
+This project strengthened my understanding of frontend interactivity, DOM manipulation, event handling, and user-focused design.
 
-It also provided practical experience in building user-friendly web interfaces with glassmorphism effects and smooth animations.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+It also provided practical experience in writing structured JavaScript code and building responsive interactive features.
