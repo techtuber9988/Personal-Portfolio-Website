@@ -3,7 +3,9 @@
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-Frontend-orange?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css3)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=for-the-badge&logo=css)
+![JS](https://img.shields.io/badge/JS-Interactive-yellow?style=for-the-badge&logo=javascript)
+
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Beginner Friendly](https://img.shields.io/badge/Level-Beginner-blue?style=for-the-badge)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green?style=for-the-badge)
