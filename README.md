@@ -182,7 +182,13 @@ git clone https://github.com/techtuber9988/Personal-Portfolio-Website.git
 
 # 📸 Screenshots
 
-Check the `screenshot/` folder for project screenshots.
+<img width="1313" height="629" alt="image" src="https://github.com/user-attachments/assets/2ba8db2a-c095-4230-a4f0-a7914dff0417" />
+
+<img width="1307" height="459" alt="image" src="https://github.com/user-attachments/assets/d1344326-02ac-4843-94da-6176cb65e48c" />
+
+<img width="1287" height="334" alt="image" src="https://github.com/user-attachments/assets/f7da64ba-8061-48ad-8c5c-37cdf91912c8" />
+
+
 
 ---
 
